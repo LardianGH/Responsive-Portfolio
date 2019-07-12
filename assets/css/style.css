@@ -1,0 +1,5 @@
+#body {
+    background-image: url('../images/papyrus-dark.png');
+    background-color: #FF0000; /* Used if the image is unavailable */
+    height: 500px;
+}
