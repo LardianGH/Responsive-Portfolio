@@ -6,49 +6,69 @@
 
         <title>About me</title>
 
-        <!--<link rel= "stylesheet" href = "assets/css/style.css">-->
+        <link rel= "stylesheet" href = "assets/css/style.css">
+
+        <script src = 'assets/js/logic.js'></script>
 
     </head>
 
     <body id = body>
 
-        <header class = grouper>
+        <div id = topBar>
+
+            <header id = header>
             
-            <h2 id = myName>Zion Brown</h2>
+                <h2 id = myName>Zion Brown</h2>
 
-            <div id = buttons>
+                <div id = buttonBox>
 
-                <button>About</button>
+                    <button class = button id = currentPage>About</button>
 
-                <button>Portfolio</button>
+                    <button class = button onClick = "toPortfolio()">Portfolio</button>
 
-                <button>Contact</button>
+                    <button class = button onClick = "toContact()">Contact</button>
 
-            </div>
+                </div>
 
-        </header>
+            </header>
+
+        </div>
 
         <section id = section>
 
-            <h2>About me</h2>
+            <h2 id = title>About me</h2>
 
             <div class = grouper>
 
-                <div id = picture></div> <!--A div to add a picture in-->
+                <div class = buddySystem>
 
-                <p id = rightText>placeholder</p>
+                    <img src = assets/images/Hacker.jpg id = picture> <!--A div to add a picture in-->
+
+                    <p id = rightText>Nothing's gonna make your husband or wife madder than coming home and
+                         having a snow-covered dinner. You have to allow the paint to break to make it beautiful.
+                          You've got to learn to fight the temptation to resist these things. Just let them happen.
+                           You can work and carry-on and put lots of little happy things in here. If you hypnotize it,
+                            it will go away. You can do anything here - the only pre-requisite is that it makes you happy.
+                             We're trying to teach you a technique here and how to use it.
+                              I guess that would be considered a UFO. A big cotton ball in the sky. 
+                              Only God can make a tree - but you can paint one. Isn't it great to do something you can't fail at? 
+                              A beautiful little sunset.
+                        </p>
+
+                </div>
+
+                <p>This is your creation - and it's just as unique and special as you are. Let's put some happy 
+                    little clouds in our world. Isn't that fantastic?
+                </p>
+                <p>
+                    Let your imagination be your guide. You need the dark in order to show the light. It's life.
+                     It's interesting. It's fun. All kinds of happy little splashes.
+                </p>
 
             </div>
 
-            <p>Placeholder1
-                </br>
-                Placeholder2
-            </p>
-
         </section>
 
-        <footer id = footer>placeholder</footer> <!--grey strip at the bottom-->
-
-    </body>
+        <footer id = footer>Lardian Freelance Web-Design
 
 </html>

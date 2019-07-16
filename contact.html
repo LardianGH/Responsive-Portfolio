@@ -4,51 +4,51 @@
 
         <title>Contact Me</title>
 
-          <!--<link rel= "stylesheet" href = "assets/css/style.css">-->
+          <link rel= "stylesheet" href = "assets/css/style.css">
+
+          <script src = 'assets/js/logic.js'></script>
 
     </head>
     <body id = body>
 
-        <header class = grouper>
-            
-            <h2 id = myName>Zion Brown</h2>
+            <div id = topBar>
+
+                <header id = header>
+                    
+                    <h2 id = myName>Zion Brown</h2>
         
-            <div id = buttons>
+                    <div id = buttonBox>
         
-                <button>About</button>
+                        <button class = button onClick = "toAbout()">About</button>
         
-                <button>Portfolio</button>
+                        <button class = button onClick = "toPortfolio()">Portfolio</button>
         
-                <button>Contact</button>
+                        <button class = button id = currentPage>Contact</button>
+        
+                    </div>
+        
+                </header>
         
             </div>
         
-        </header>
 
         <section id = section>
 
-            <h2>Contact</h2>
+            <h2 id = title>Contact</h2>
 
-            <form>
+            <form class = grouper>
 
-                Name: 
+                <p>Name:</p>
+                <input class = text type='text' />
+                <p>Email:</p>
+                <input  class = text type='text' />
+                <p>Message:</p>
+                <textarea class ='text' id ='area' type='text'></textarea>
                 <br>
-                <input type='text' />
-                <br>
-                Email:
-                <br>
-                <input type='text' />
-                <br>
-                Message:
-                <br>
-                <textarea type='text'>
-
-                </textarea>
-                <br>
-                <input type='submit' value='Submit' />
-
+                <input type='submit' value='Submit' id='submit'/>
+                
             </form>
-
+            
         </section>
 
             <footer id = footer>placeholder</footer>

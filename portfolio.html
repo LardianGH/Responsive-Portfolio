@@ -4,30 +4,36 @@
 
         <title>Project examples</title>
 
-          <!--<link rel= "stylesheet" href = "assets/css/style.css">-->
+          <link rel= "stylesheet" href = "assets/css/style.css">
+
+          <script src = 'assets/js/logic.js'></script>
 
     </head>
     <body id = body>
 
-        <header class = grouper>
-            
-            <h2 id = myName>Zion Brown</h2>
+            <div id = topBar>
+
+                <header id = header>
+                    
+                    <h2 id = myName>Zion Brown</h2>
         
-            <div id = buttons>
+                    <div id = buttonBox>
         
-                <button>About</button>
+                        <button class = button onClick = "toAbout()">About</button>
         
-                <button>Portfolio</button>
+                        <button class = button id = currentPage>Portfolio</button>
         
-                <button>Contact</button>
+                        <button class = button onClick = "toContact()">Contact</button>
+        
+                    </div>
+        
+                </header>
         
             </div>
         
-        </header>
-
         <section id = section>
 
-            <h2>Portfolio</h2>
+            <h2 id = title>Portfolio</h2>
 
                 <!--Find out width of section and then make each box less than 1/3 (space in between)
                 3x3 boxes, hidden until needed, also have them link to project sites. And somehow have
@@ -36,7 +42,7 @@
 
         </section>
 
-        <footer id = footer></footer>
+        <footer id = footer>Footer</footer>
 
     </body>
 </html>
