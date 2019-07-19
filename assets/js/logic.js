@@ -9,3 +9,5 @@ function toPortfolio() {
 function toContact() {
     window.location.href = 'contact.html';
 }
+
+
